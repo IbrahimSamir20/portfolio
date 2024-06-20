@@ -1,0 +1,41 @@
+footer {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  gap: 5rem;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+footer ul li {
+  position: relative;
+  transition: 0.3s;
+}
+footer ul li::after {
+  content: "";
+  position: absolute;
+  transition: 0.2s linear;
+  width: 0%;
+  height: 1px;
+  background-color: var(--blue);
+  bottom: -9px;
+  left: 0;
+}
+footer ul li:hover:after,
+footer ul li a:hover {
+  width: 100%;
+  color: var(--blue);
+}
+footer ul li a {
+  text-decoration: none;
+  color: var(--subtitle);
+  transition: 0.2s linear;
+}
+footer p{
+  color: var(--subtitle);
+}

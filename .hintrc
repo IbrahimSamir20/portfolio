@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "scale",
+          "rotate",
+          "backdrop-filter",
+          "translate"
+        ]
+      }
+    ],
+    "axe/forms": "off"
+  }
+}

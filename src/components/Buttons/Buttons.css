@@ -1,0 +1,83 @@
+/* {{{{{{ B u t t o n s }}}}}} */
+button {
+  all: unset;
+  cursor: pointer;
+}
+button:active {
+  scale: 0.95;
+}
+/* {{{{{{{ I c o n s  B u t t o n s }}}}}}} */
+.icon-menu,
+.icon-moon-o,
+.icon-sun {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bgHeader);
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  color: var(--subtitle);
+  border: 1px solid rgba(244, 165, 96, 0.249);
+  transition: 0.2s;
+}
+.icon-menu:hover,
+.icon-moon-o:hover {
+  color: var(--title);
+  border: 1px solid rgb(244, 165, 96);
+}
+.icon-sun{
+  background-color: var(--bgHeader);
+  color: gold;
+}
+.icon-sun:hover{
+  background-color: var(--bgHeader);
+}
+.icon-close {
+  font-size: 1rem;
+  color: var(--subtitle);
+  transition: 0.3s;
+}
+
+.icon-close:hover {
+  color: crimson;
+  font-size: 1.2rem;
+  rotate: 180deg;
+}
+
+.up {
+  background-color: rgba(25, 118, 210, 0.85);
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 3rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: 0.3s;
+}
+.up a {
+  color: var(--title);
+  transition: 0.3s;
+}
+/* {{{{{{{ M e d i a  Q u e r y }}}}}}} */
+@media (min-width: 700px) {
+  .menu {
+    display: none;
+  }
+  button:active {
+    scale: 0.95;
+  }
+}
+@media (max-width: 700px) {
+  .up {
+    opacity: 0.3;
+  }
+  button:active {
+    scale: 0.95;
+  }
+}

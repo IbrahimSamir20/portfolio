@@ -1,0 +1,30 @@
+.main {
+  display: flex;
+  gap: 3rem;
+  align-items: start;
+}
+.cardStage {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 1.5rem;
+  column-gap: 0.53rem;
+  flex-grow: 1;
+}
+@media (max-width: 700px) {
+  .main {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .cardStage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+}

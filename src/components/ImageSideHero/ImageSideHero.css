@@ -1,0 +1,9 @@
+.lab {
+  width: 140%;
+  translate: 100px 10px;
+}
+@media (max-width: 900px) {
+  .lab {
+    display: none;
+  }
+}

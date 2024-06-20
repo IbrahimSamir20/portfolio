@@ -1,0 +1,34 @@
+[
+  {
+    "projectTitle": "react project",
+    "category": ["react"],
+    "imagePath": "/1.jpg"
+  },
+  {
+    "projectTitle": "react & css project",
+    "category": ["react", "CSS"],
+    "imagePath": "/2.jpg"
+  },
+  { "projectTitle": "css project", "category": ["css"], "imagePath": "/3.jpg" },
+  {
+    "projectTitle": "react project",
+    "category": ["react"],
+    "imagePath": "/4.jpg"
+  },
+  { "projectTitle": "css project", "category": ["css"], "imagePath": "/5.jpg" },
+  {
+    "projectTitle": "javaScript project",
+    "category": ["JS"],
+    "imagePath": "/6.jpg"
+  },
+  {
+    "projectTitle": "node project",
+    "category": ["node"],
+    "imagePath": "/7.jpg"
+  },
+  {
+    "projectTitle": "node project",
+    "category": ["node"],
+    "imagePath": "/8.jpg"
+  }
+]
